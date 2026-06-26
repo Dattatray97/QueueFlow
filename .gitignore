@@ -1,0 +1,53 @@
+# ========================
+# Backend (Spring Boot / Java)
+# ========================
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+*.class
+*.jar
+*.war
+*.log
+
+# ========================
+# Frontend (React / Node)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# ========================
+# IDE & Editor Files
+# ========================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Docker
+# ========================
+mysql_data/
+
+# ========================
+# Environment & Secrets
+# ========================
+*.env
+.env.local
+.env.production
